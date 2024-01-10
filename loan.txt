@@ -1,0 +1,20 @@
+f=open("loans","w+")
+print("LOANS"+"\n"+"\n")
+
+f.write("Student loans"+"\n"+"\n")
+f.write("Terms and Conditions: The loan is to be repaid in 5-7 years, after commencement of repayment. If the student is not able to complete the course within the scheduled time, extension of time for completion of course may be permitted for a maximum period of 2 years."+"\n"+"\n")
+f.write("Documents required: KYC documents, Bank Statement / Pass Book of last 6 months, Optional – Guarantor Form, Copy of admission letter of the Institute along with fees schedule, Mark sheets / passing certificates of S.S.C., H.S.C, Degree courses."+"\n"+"\n"+ "\n")
+
+f.write("Mortgage Loans"+"\n"+"\n")
+f.write("Terms and conditions: The term of a mortgage facility commences on the date of first drawdown and continues for the period stated in the letter of offer. The letter of offer may allow the original term of the mortgage facility to be extended up to a maximum period. This is to allow the instalment amount to be maintained notwithstanding any change in the interest rateOn the last day of the term, to the extent there is any balance owing for the account for the mortgage facility, you must repay that balance owing. If you ask, we may agree to defer a particular monthly instalment. If this happens, you must pay the additional interest which accrues on the deferred instalment amount on the final payment "+"\n"+"\n")
+f.write("Doc req:"+ "\n" + "i) 	Completed application form " + "\n" + "ii) 	Proof of booked property (if any); Declaration of source of down-payment"+"\n" +"iii) 	Valid Passport, Visa & EIDA Card copy"+ "\n" +"iv) 	Last 6 months bank statements copy"+ "\n"+"v) 	Salary Certificate,  and dated 30 days or less from date of loan application"+ "\n"+"vi) 	Salary transfer letter"+ "\n"+"vii) 	Details of existing loans/liabilities"+ "\n" + "\n" + "\n")
+
+f.write("Personal loans"+"\n"+"\n")
+f.write("Terms and Conditions: Subject to these Master Loan Conditions, the proceeds of any Personal Loan shall be paid to the Account specified in the relevant Request or Offer Letter, which must be the Account into which the Customer’s salary is transferred. "+"\n"+"If the proceeds of a Personal Loan are to be used to repay a personal loan that the Customer has borrowed from another bank or financial institution, then promptly after borrowing all or part of that Personal Loan, the Customer shall provide the Bank with a letter from that other bank or financial institution (in form and substance satisfactory to the Bank) confirming that the existing personal loan has been repaid in full." +"\n"+"\n")
+f.write("Doc req:"+ "\n" + "i) 	Completed application form " + "\n" +"ii) 	Valid Passport, Visa & EIDA Card copy"+ "\n" +"iii) 	Last 3 months bank statements copy"+ "\n"+"iv) 	Salary Certificate,  and dated 30 days or less from date of loan application"+ "\n"+"v) 	Salary transfer letter"+ "\n"+"vi) 	Details of existing loans/liabilities"+ "\n")
+
+f.seek(0)
+print(f.read())
+f.close()
+print("*"*50)
+   
